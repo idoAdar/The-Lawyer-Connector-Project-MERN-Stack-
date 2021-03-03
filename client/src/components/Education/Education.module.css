@@ -1,0 +1,54 @@
+.education_container {
+  width: 85%;
+  margin: auto;
+}
+
+.education_container p {
+  padding: 0.3rem 0;
+}
+
+.education_container h1 {
+  font-size: 2rem;
+  color: #2dc1d8;
+}
+
+.education_container .input_field {
+  margin: 0.4rem 0rem;
+  width: 100%;
+}
+
+.education_container .input_field input {
+  padding: 0.3rem 1rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #acacac;
+}
+
+.education_container .input_field input:focus {
+  background-color: #f4f4f4;
+  outline: none;
+}
+
+.education_container textarea {
+  border: 1px solid #acacac;
+  outline: none;
+  padding: 1rem;
+  width: 100%;
+  height: 5rem;
+  border-radius: 5px;
+}
+
+.education_container textarea:focus {
+  background-color: #f4f4f4;
+}
+
+.education_container .btn {
+  outline: none;
+  margin: 1rem 1rem 1rem 0rem;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  background-color: #2dc1d8;
+  color: #fff;
+}

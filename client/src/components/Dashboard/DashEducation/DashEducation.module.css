@@ -1,0 +1,25 @@
+.education_container {
+  margin: 1rem 0;
+  width: 65rem;
+}
+
+.education_container th {
+  text-align: start;
+  background-color: #f4f4f4;
+  color: #1d1f22;
+  padding: 0.7rem 0.4rem;
+}
+
+.education_container td {
+  padding: 0.4rem;
+}
+
+.education_container button {
+  color: #1d1f22;
+  padding: 0.3rem 0.5rem;
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}

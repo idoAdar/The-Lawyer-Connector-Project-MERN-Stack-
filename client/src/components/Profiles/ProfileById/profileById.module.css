@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.profile_container {
+  margin: 1rem auto;
+  width: 70%;
+  height: 65vh;
+  background-color: #2dc1d8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.img {
+  width: 12rem;
+  border-radius: 50%;
+}
+
+.about {
+  color: #ffff;
+  font-weight: 100;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.profile_container i {
+  padding: 0.3rem;
+  color: #ffff;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.profile_container i:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.back {
+  padding: 0.4rem 1.2rem;
+  text-align: center;
+  width: 5rem;
+  margin: 1rem auto;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back a {
+  color: #03333a;
+}
+
+.back a {
+  text-decoration: none;
+}
+
+.back:hover {
+  background-color: #f3f5f5;
+}
+
+@media (max-width: 400px) {
+  .profile_container {
+    width: 95%;
+    height: 65vh;
+  }
+}

@@ -1,0 +1,57 @@
+.bio_skills_container {
+  margin: 0 auto;
+  width: 70%;
+  height: 27vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e7e7e7;
+}
+
+.bio_skills_container p {
+  font-size: 14px;
+  color: #03333a;
+}
+
+.bio_skills_container div {
+  width: 100%;
+  height: 100%;
+}
+
+.bio_skills_container div:nth-of-type(1),
+.bio_skills_container div:nth-of-type(2) {
+  border-bottom: 2px solid #ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.bio_skills_container h3 {
+  color: #03333a;
+  font-size: 1.1rem;
+}
+
+.skills p {
+  word-spacing: 2rem;
+  color: #03333a;
+}

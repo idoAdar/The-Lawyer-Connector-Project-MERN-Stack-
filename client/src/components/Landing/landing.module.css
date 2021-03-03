@@ -1,0 +1,106 @@
+.landing {
+  position: relative;
+  background-color: #1d1f22;
+  height: 90vh;
+}
+
+.landing .inner {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.landing h1 {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  font-size: 4rem;
+  color: white;
+  font-weight: 100;
+}
+
+.landing h1::first-letter {
+  color: #2dc1d8;
+}
+
+.landing p {
+  width: 90%;
+  letter-spacing: 0.1rem;
+  color: white;
+  margin: auto;
+  border-bottom: 1px solid #2dc1d8;
+  text-align: center;
+}
+
+.landing .btns {
+  padding: 1.2rem;
+}
+
+.landing .btn {
+  text-decoration: none;
+  color: #1d1f22;
+  border-radius: 5px;
+  padding: 0.3rem 1.4rem;
+  background-color: #f4f4f4;
+  margin-right: 0.5rem;
+}
+
+.landing .btn:first-child {
+  background-color: #2dc1d8;
+  color: #ffff;
+}
+
+@media (max-width: 670px) {
+  .landing h1 {
+    font-size: 3rem;
+  }
+
+  .landing p {
+    text-align: center;
+    width: 80%;
+  }
+
+  .landing .btn {
+    padding: 0.2rem 1.2rem;
+  }
+}
+
+@media (max-width: 515px) {
+  .landing h1 {
+    font-size: 2rem;
+  }
+
+  .landing p {
+    text-align: center;
+    width: 80%;
+  }
+
+  .landing .btn {
+    padding: 0.2rem 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .landing h1 {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .landing p {
+    text-align: center;
+    width: 85%;
+    font-size: 14px;
+  }
+  .landing .btn {
+    padding: 0.3rem 1.2rem;
+  }
+}

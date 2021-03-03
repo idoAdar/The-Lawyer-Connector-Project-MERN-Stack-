@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://ido_adar:239738416@cluster0.oijmi.mongodb.net/fullStack_project?retryWrites=true&w=majority",
+    "jwtSecret": "my_secret_token"
+}

@@ -1,0 +1,23 @@
+.alert {
+  text-align: center;
+  width: 100%;
+  border-radius: 2px;
+  color: #ffff;
+  padding: 0.2rem 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.green {
+  border: 1px solid #247000;
+  background-color: green;
+}
+
+.red {
+  border: 1px solid #580505;
+  background-color: red;
+}
+
+.gray {
+  border: 1px solid #363636;
+  background-color: rgb(160, 160, 160);
+}

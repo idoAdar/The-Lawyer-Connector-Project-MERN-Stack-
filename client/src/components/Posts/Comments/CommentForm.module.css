@@ -1,0 +1,50 @@
+.create_comment_container {
+  margin: 1rem auto;
+  width: 60%;
+  height: 37vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.create_comment_container div {
+  padding: 0.4rem;
+  background-color: #2dc1d8;
+  color: #fff;
+}
+
+.create_comment_container p {
+  font-size: 16px;
+}
+
+.create_comment_container textarea {
+  height: 10rem;
+  padding: 1rem;
+}
+
+.create_comment_container button {
+  padding: 0.3rem;
+  width: 5rem;
+  outline: none;
+  background-color: #1d1f22;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.create_comment_container button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 400px) {
+  .create_comment_container {
+    width: 95%;
+  }
+}

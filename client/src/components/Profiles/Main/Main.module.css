@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main p {
+  padding-top: 1rem;
+}
+
+.profile {
+  margin: 1rem 0;
+}
+
+.main h1 {
+  color: #2dc1d8;
+  font-size: 3rem;
+}
+
+.main i {
+  margin-right: 0.5rem;
+  color: #00899e;
+}
+
+@media (max-width: 400px) {
+  .main {
+    width: 85%;
+  }
+}

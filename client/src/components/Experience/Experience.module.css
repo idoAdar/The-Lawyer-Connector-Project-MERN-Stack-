@@ -1,0 +1,59 @@
+.experience_container {
+  width: 85%;
+  margin: auto;
+}
+
+.experience_container p {
+  padding: 0.3rem 0;
+}
+
+.experience_container small {
+  display: block;
+  padding: 0.2rem 0.1rem;
+}
+
+.experience_container h1 {
+  font-size: 2rem;
+  color: #2dc1d8;
+}
+
+.experience_container .input_field {
+  margin: 0.4rem 0rem;
+  width: 100%;
+}
+
+.experience_container .input_field input {
+  padding: 0.3rem 1rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #acacac;
+}
+
+.experience_container .input_field input:focus {
+  background-color: #f4f4f4;
+  outline: none;
+}
+
+.experience_container textarea {
+  border: 1px solid #acacac;
+  outline: none;
+  padding: 1rem;
+  width: 100%;
+  height: 5rem;
+  border-radius: 5px;
+}
+
+.experience_container textarea:focus {
+  background-color: #f4f4f4;
+}
+
+.experience_container .btn {
+  outline: none;
+  margin: 1rem 1rem 1rem 0rem;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  background-color: #2dc1d8;
+  color: #fff;
+}

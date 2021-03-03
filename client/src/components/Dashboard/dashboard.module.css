@@ -1,0 +1,58 @@
+.main {
+  padding: 0.5rem 2rem;
+}
+
+.main h1 {
+  color: #2dc1d8;
+  font-size: 3rem;
+}
+
+.container {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5rem 2rem;
+}
+
+.controller_container {
+  padding: 0 1rem;
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.container h1 {
+  color: #2dc1d8;
+  font-weight: 100;
+}
+
+.create_profile_btn {
+  width: 12rem;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1rem;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 0.3rem 1.4rem;
+  background-color: #2dc1d8;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.remove_account_container {
+  height: 10vh;
+}
+.remove_account_container button {
+  width: 12rem;
+  margin-left: 2rem;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 0.3rem 1.4rem;
+  background-color: #2dc1d8;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
